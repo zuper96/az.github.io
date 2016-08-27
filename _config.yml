@@ -102,3 +102,18 @@ description: "Intended as a documentation theme based on Jekyll for technical wr
 
 # needed for sitemap.xml file only
 url: http://idratherbewriting.com
+
+# compress html
+compress_html:
+  clippings: [div, p, ul, td, h1, h2] # or for all type all without square bracket
+  comments: ["<!-- ", " -->"]
+  endings: [p, li, td] # or for all type all without square bracket
+  # An array of environments given by ENV["JEKYLL_ENV"] where the compress layout is ignored. This may be useful while developing a website.
+  ignore:
+    envs: ["JEKYLL_ENV"]
+  # A boolean value to turn on blanklines mode. This mode will only remove lines consisting of whitespace and leave other lines alone.
+  blanklines: true
+  # A boolean value to turn on the profile mode. If true, the layout creates a HTML table after the compressed content. The table contains the file size in bytes during the compressing steps.
+  profile: true
+  # An array of elements with optional start tags. These start tags will be removed.
+  startings: [html, head, body]
