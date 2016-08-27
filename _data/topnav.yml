@@ -23,7 +23,6 @@ topnav_dropdowns:
           external_url: https://translate.google.com/
         - title: Dev Tools
           external_url: http://www.tutorialspoint.com/online_dev_tools.htm
-          topnav_dropdowns:
           - title: Topnav dropdowns
           folders:
           - title : Doc Theme
