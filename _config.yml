@@ -112,7 +112,7 @@ compress_html:
   ignore:
     envs: []
   # A boolean value to turn on blanklines mode. This mode will only remove lines consisting of whitespace and leave other lines alone.
-  blanklines: true
+  blanklines: false
   # A boolean value to turn on the profile mode. If true, the layout creates a HTML table after the compressed content. The table contains the file size in bytes during the compressing steps.
   profile: true
   # An array of elements with optional start tags. These start tags will be removed.
