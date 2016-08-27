@@ -21,7 +21,7 @@ topnav_dropdowns:
       folderitems:
         - title: Google Translate
           external_url: https://translate.google.com/
-        - title: Google Dev Tools
+        - title: Dev Tools
           external_url: http://www.tutorialspoint.com/online_dev_tools.htm
         - title: Github Repo
           external_url: https://github.com/tomjohnson1492/documentation-theme-jekyll
