@@ -8,7 +8,7 @@ topnav_title: Zuper96
 site_title: AZNotes
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Krakatau Steel
+company_name: Agus Zupri
 # this appears in the footer
 
 github_editme_path: tomjohnson1492/documentation-theme-jekyll/blob/gh-pages/pages/
@@ -105,12 +105,12 @@ url: http://idratherbewriting.com
 
 # compress html
 compress_html:
-  clippings: [div, p, ul, td, h1, h2] # or for all type all without square bracket
+  clippings: all # or for all type all without square bracket
   comments: ["<!-- ", " -->"]
-  endings: [p, li, td] # or for all type all without square bracket
+  endings: all # or for all type all without square bracket
   # An array of environments given by ENV["JEKYLL_ENV"] where the compress layout is ignored. This may be useful while developing a website.
   ignore:
-    envs: ["JEKYLL_ENV"]
+    envs: []
   # A boolean value to turn on blanklines mode. This mode will only remove lines consisting of whitespace and leave other lines alone.
   blanklines: true
   # A boolean value to turn on the profile mode. If true, the layout creates a HTML table after the compressed content. The table contains the file size in bytes during the compressing steps.
