@@ -107,7 +107,7 @@ url: http://idratherbewriting.com
 compress_html:
   clippings: all # or for all type all without square bracket
   comments: all  # ["<!-- ", " -->"]
-  endings: all # or for all type all without square bracket
+  endings: [] # or for all type all without square bracket
   # An array of environments given by ENV["JEKYLL_ENV"] where the compress layout is ignored. This may be useful while developing a website.
   ignore:
     envs: []
