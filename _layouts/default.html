@@ -7,12 +7,11 @@ layout: compress
     {% include head.html %}
     <script>
         $(document).ready(function() {
-            // Initialize navgoco with default options
             $("#mysidebar").navgoco({
                 caretHtml: '',
                 accordion: true,
-                openClass: 'active', // open
-                save: false, // leave false or nav highlighting doesn't work right
+                openClass: 'active',
+                save: false,
                 cookie: {
                     name: 'navgoco',
                     expires: false,
