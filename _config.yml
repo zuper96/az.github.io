@@ -107,16 +107,16 @@ url: http://idratherbewriting.com
 compress_html:
   clippings: all # or for all type all without square bracket
   comments: all  # ["<!-- ", " -->"]
-  endings: [] # or for all type all without square bracket
+  endings:  # or for all type all without square bracket
   # An array of environments given by ENV["JEKYLL_ENV"] where the compress layout is ignored. This may be useful while developing a website.
   ignore:
-    envs: []
+    envs: 
   # A boolean value to turn on blanklines mode. This mode will only remove lines consisting of whitespace and leave other lines alone.
   blanklines: false
   # A boolean value to turn on the profile mode. If true, the layout creates a HTML table after the compressed content. The table contains the file size in bytes during the compressing steps.
   profile: false
   # An array of elements with optional start tags. These start tags will be removed.
-  startings: []
+  startings: 
 
 
 # Config Jekyll Now 
