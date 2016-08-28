@@ -34,9 +34,3 @@ topnav_dropdowns:
         - title: Jekyll on my blog
           external_url: http://idratherbewriting.com/category-jekyll/
     - title: About
-      folderitems:
-        - title: About Me
-          url: 
-        - title: Contact
-          url: 
-        
