@@ -3,13 +3,13 @@
 topnav:
 - title: Topnav
   items:
-    - title: News
+    - title: Blog
       url: /news
 #Topnav dropdowns
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Products
+    - title: Doc
       folderitems:
         - title: Jekyll Documentation Theme
           url: /mydoc_introduction.html
@@ -33,4 +33,10 @@ topnav_dropdowns:
           external_url: http://stackoverflow.com/questions/tagged/jekyll
         - title: Jekyll on my blog
           external_url: http://idratherbewriting.com/category-jekyll/
-    
+    - title: About
+      folderitems:
+        - title: About Me
+          url: 
+        - title: Contact
+          url: 
+        
