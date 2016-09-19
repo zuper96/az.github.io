@@ -5,16 +5,16 @@ output: web
 topnav_title: zuper96
 # this appears on the top navigation bar next to the home button
 
-site_title: AZDoc
+site_title: Catatan-az
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Agus Zupri
+company_name: zuper96
 # this appears in the footer
 
-github_editme_path: tomjohnson1492/documentation-theme-jekyll/blob/gh-pages/pages/
+github_editme_path: zuper96/zuper96.github.io
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
-disqus_shortname: idrbwjekyll
+# disqus_shortname: idrbwjekyll
 # if you're using disqus for comments, add the shortname here. if not, leave this value blank.
 
 host: 127.0.0.1
@@ -23,12 +23,7 @@ host: 127.0.0.1
 port: 4005
 # the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
 
-exclude:
-  - .idea/
-  - .gitignore
-# these are the files and directories that jekyll will exclude from the build
-
-feedback_subject_line: Jekyll documentation theme
+# feedback_subject_line: Jekyll documentation theme
 
 # feedback_email: tomjohnson1492@gmail.com
 # used as a contact email for the Feedback link in the top navigation bar
@@ -77,7 +72,6 @@ defaults:
       comments: true
       search: true
       tooltip: true
-
   -
     scope:
       path: ""
@@ -93,6 +87,7 @@ defaults:
 sidebars:
 - home_sidebar
 - mydoc_sidebar
+- azydoc_sidebar
 - product1_sidebar
 - product2_sidebar
 - other
@@ -101,16 +96,17 @@ description: "Intended as a documentation theme based on Jekyll for technical wr
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
-url: http://idratherbewriting.com
+# url: http://idratherbewriting.com
+url: http://zuper96.github.io
 
-# compress html
+# Jekyll compress html https://github.com/zuper96/jekyll-compress-html
 compress_html:
   clippings: all # or for all type all without square bracket
   comments: all  # ["<!-- ", " -->"]
   endings:  []# or for all type all without square bracket
   # An array of environments given by ENV["JEKYLL_ENV"] where the compress layout is ignored. This may be useful while developing a website.
   ignore:
-    envs: []
+    envs:
   # A boolean value to turn on blanklines mode. This mode will only remove lines consisting of whitespace and leave other lines alone.
   blanklines: false
   # A boolean value to turn on the profile mode. If true, the layout creates a HTML table after the compressed content. The table contains the file size in bytes during the compressing steps.
@@ -155,3 +151,7 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - .idea/
+  - .gitignore
+  - azdoc
+# these are the files and directories that jekyll will exclude from the build

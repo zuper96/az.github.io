@@ -4,7 +4,7 @@ topnav:
 - title: Topnav
   items:
     - title: Blog
-      url: /blog
+      url: /blog.html
 #Topnav dropdowns
 topnav_dropdowns:
 - title: Topnav dropdowns
@@ -23,14 +23,12 @@ topnav_dropdowns:
           external_url: https://translate.google.com/
         - title: Dev Tools
           external_url: http://www.tutorialspoint.com/online_dev_tools.htm
-        - title: Github Repo
-          external_url: https://github.com/tomjohnson1492/documentation-theme-jekyll
+        - title: Dev Documentations
+          external_url: http://devdocs.io/
         - title: Jekyll Talk
           external_url: https://talk.jekyllrb.com
         - title: Jekyll documentation
           external_url: http://jekyllrb.com/docs/home/
         - title: Jekyll on Stack Overflow
           external_url: http://stackoverflow.com/questions/tagged/jekyll
-        - title: Jekyll on my blog
-          external_url: http://idratherbewriting.com/category-jekyll/
     - title: About
