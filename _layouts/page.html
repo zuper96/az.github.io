@@ -47,6 +47,10 @@ layout: default
 
     {% endunless %}
 
+	{% if page.folder == "mydoc" %}
+	<a target="_blank" href="https://translate.google.com/translate?sl=en&tl=id&u=https://{{site.translate_en_id}}/{{page.url}}" class="btn btn-default" role="button"><i class="fa fa-language fa-lg"></i> Indonesia </a>
+	{% endif %}
+	
   {{content}}
 
     <div class="tags">
